@@ -19,7 +19,7 @@ function iniciarDesafio() {
     const numeros = Math.floor(Math.randon() * desafios.length);
     const desafio = desafios[numeros];
 
-    document.getElementById("resposta").innerHTML=`
+    document.getElementById("resultado").innerHTML=`
     <h2> Olá ${name}</h2>
     <h2> Seu Desafio é: </h2>
     <h3> ${desafio} </h3>
